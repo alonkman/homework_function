@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stlyle.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+ 
+    </style>
+  </head>
+  <body>
+    <div>
+      <input
+        class="inp"
+        type="number"
+        id="chk"
+        placeholder="  write a number between 1 - 50"
+        size="1000"
+      />
+      <button class="button" onclick="func1()">Test</button>
+    </div>
+    <br />
+    <div>
+      <input
+        class="inp"
+        type="number"
+        id="color"
+        placeholder="  write 2, 3 or 4 to cahnge color"
+      />
+      <button class="button" onclick="colr()">change background color</button>
+    </div>
+
+    <script>
+      function func1() {
+        if (chk.value <= 10) {
+          console.log(chk.value);
+          alert(chk.value);
+        } else if (chk.value >= 11 && chk.value <= 20) {
+          console.log(chk.value);
+          console.log(chk.value);
+          alert(chk.value + " " + chk.value);
+        } else if (chk.vlaue > 20 && chk.value <= 30) {
+          console.log("Alon");
+          alert(ALon);
+        } else if (chk.value > 30 && chk.value <= 40) {
+          console.log(chk.value * 4);
+          alert(chk.value * 4);
+        } else if (chk.value > 40 && chk.value < 50) {
+          console.log(parseInt(chk.value) + 200);
+          alert(parseInt(chk.value) + 200);
+        }
+      }
+      function colr() {
+        if (color.value == 2) {
+          document.body.style.backgroundColor = "red";
+          alert("color changed to red");
+        } else if (color.value == 3) {
+          document.body.style.backgroundColor = "green";
+          alert("color changed to red");
+        } else if (color.value == 4) {
+          document.body.style.backgroundColor = "blue";
+          alert("color changed to blue");
+        }
+      }
+    </script>
+  </body>
+</html>

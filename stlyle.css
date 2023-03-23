@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(137, 253, 145);
+    padding-left: 10px;
+    position: relative;
+  }
+  .button {
+    border: 1px solid black;
+    border-radius: 30px;
+  }
+  .inp {
+    border-radius: 30px;
+    background-color: aquamarine;
+  }
+  #chk {
+    height: 40px;
+    width: 220px;
+  }
+  #color {
+    height: 40px;
+    width: 220px;
+  }
